@@ -1,6 +1,5 @@
 package com.company;
 
-
 import java.math.BigInteger;
 import java.util.Map;
 
@@ -17,14 +16,10 @@ public class Main {
         {
             System.out.println("The IBAN you've entered is not valid!");
         }
-
-
-
     }
-
+    //Check database
     private static String checkSwift(String iban) {
         SwiftCodes sw = new SwiftCodes();
-        sw.initialiseDB();
         String result="There is no matching SWIFT code in the database";
         for (Map.Entry<String, String> entry : sw.swiftDB.entrySet()) {
             String shortSwift=entry.getKey().substring(0,4);
@@ -47,13 +42,7 @@ public class Main {
         if (modCheck(iban)) {
             verifyMod = true;
         }
-        if (verifyLen & verifyMod) {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return (verifyLen & verifyMod) ;
     }
 
     //check the result of mod by 97
