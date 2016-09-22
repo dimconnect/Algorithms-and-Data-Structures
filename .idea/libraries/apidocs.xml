@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="apidocs">
+    <CLASSES>
+      <root url="jar://C:/Program Files/poi/poi-3.15-beta2/lib/commons-codec-1.10.jar!/" />
+      <root url="jar://C:/Program Files/poi/poi-3.15-beta2/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://C:/Program Files/poi/poi-3.15-beta2/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://C:/Program Files/poi/poi-3.15-beta2/lib/junit-4.12.jar!/" />
+      <root url="jar://C:/Program Files/poi/poi-3.15-beta2/ooxml-lib/curvesapi-1.04.jar!/" />
+      <root url="jar://C:/Program Files/poi/poi-3.15-beta2/ooxml-lib/xmlbeans-2.6.0.jar!/" />
+      <root url="jar://C:/Program Files/poi/poi-3.15-beta2/poi-3.15-beta2.jar!/" />
+      <root url="jar://C:/Program Files/poi/poi-3.15-beta2/poi-examples-3.15-beta2.jar!/" />
+      <root url="jar://C:/Program Files/poi/poi-3.15-beta2/poi-excelant-3.15-beta2.jar!/" />
+      <root url="jar://C:/Program Files/poi/poi-3.15-beta2/poi-ooxml-3.15-beta2.jar!/" />
+      <root url="jar://C:/Program Files/poi/poi-3.15-beta2/poi-ooxml-schemas-3.15-beta2.jar!/" />
+      <root url="jar://C:/Program Files/poi/poi-3.15-beta2/poi-scratchpad-3.15-beta2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://C:/Program Files/poi/poi-3.15-beta2/docs/apidocs" />
+      <root url="jar://C:/Program Files/poi/poi-bin-3.15-beta2-20160702.zip!/poi-3.15-beta2/docs/apidocs" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
