@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="autowireByName" class="dependencyinjection.autowire.TextEditor"
+		autowire="byName"
+		lazy-init="true">
+		<property name="name" value="Autowire by name!" />
+	</bean>
+	
+	<bean id="autowireByType" class="dependencyinjection.autowire.TextEditor"
+		autowire="byType"
+		lazy-init="true">
+		<property name="name" value="Autowire by type!" />
+	</bean>
+	
+	<bean id="autowireconstructor" class="dependencyinjection.autowire.TextEditor"
+		autowire="constructor"
+		lazy-init="true">
+		<constructor-arg value="Autowire to constructor!"/>
+	</bean>
+	
+	<bean id="spellChecker" class="dependencyinjection.autowire.SpellChecker">
+	</bean>
+</beans>
